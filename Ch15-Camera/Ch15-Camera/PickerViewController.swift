@@ -39,6 +39,11 @@ class PickerViewController: UIViewController,
     override func viewDidLoad() {
         super.viewDidLoad()
         picker.delegate = self
+        
+
+        imageView.clipsToBounds = true
+        imageView.layer.masksToBounds = true
+        imageView.layer.cornerRadius = imageView.frame.width/2
     }
 
     override func didReceiveMemoryWarning() {

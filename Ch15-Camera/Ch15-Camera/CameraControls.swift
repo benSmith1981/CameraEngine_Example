@@ -23,5 +23,4 @@ import UIKit
         delegate?.switchCamera()
     }
 
-
 }
